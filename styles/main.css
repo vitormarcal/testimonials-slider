@@ -3,7 +3,7 @@
     --grayish-blue-color: hsl(240, 18%, 77%);
 }
 
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,4 +11,56 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    height: 100vh;
+    background: url('../images/pattern-curve.svg') no-repeat;
+    background-position-y: bottom;
+}
+
+.content {
+    display: flex;
+    width: 90%;
+    max-width: 1440px;
+    height: 95%;
+
+    align-items: center;
+    justify-content: center;
+    margin: 0 10em;
+}
+
+.depoyments {
+    list-style: none;
+}
+
+.depoyments__item {
+    width: 650px;
+}
+
+.depoyments__item--invisible {
+    display: none;
+}
+
+.depoyments__text {
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.depoyments_identification-group {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.depoyments__name {
+    font-weight: 700;
+    margin-right: 7px;
+}
+
+.depoyments__occupation {
+    color: var(--grayish-blue-color);
+    font-weight: 500;
 }
