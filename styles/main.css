@@ -14,8 +14,13 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
 }
 
-body {
+html, body {
+    width: 100vw;
+    max-width: 1440px;
     height: 100vh;
+}
+
+body {
     background: url('../images/pattern-curve.svg') no-repeat;
     background-position-y: bottom;
 }
@@ -33,6 +38,8 @@ body {
 
 .depoyments {
     list-style: none;
+    position: relative;
+    left: 80px;
 }
 
 .depoyments__item {
@@ -47,7 +54,7 @@ body {
     height: 100px;
     position: relative;
     left: 94px;
-    top: 37px;
+    top: 40px;
 }
 
 .depoyments__item--invisible {
@@ -58,6 +65,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 32px;
     font-weight: 300;
+    line-height: 1.5;
 }
 
 .depoyments_identification-group {
@@ -74,4 +82,25 @@ body {
 .depoyments__occupation {
     color: var(--grayish-blue-color);
     font-weight: 500;
+}
+
+.slider {
+    width: 570px;
+}
+
+.slider__bg-container {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+}
+
+.slider__bg {
+    display: block;
+    position: relative;
+    background: url(../images/pattern-bg.svg) no-repeat;
+    width: 697px;
+    height: 657px;
+    bottom: 62px;
+    right: 63px;
+    z-index: -1;
 }
