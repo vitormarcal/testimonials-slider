@@ -101,6 +101,10 @@ body {
     width: 697px;
     height: 657px;
     bottom: 62px;
-    right: 63px;
+    right: 65px;
     z-index: -1;
+}
+
+.slider__image {
+    border-radius: 5px;
 }
