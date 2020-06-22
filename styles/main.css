@@ -39,6 +39,17 @@ body {
     width: 650px;
 }
 
+.depoyments__item::before {
+    content: '';
+    display: inline-block;
+    background: url(../images/pattern-quotes.svg) no-repeat;
+    width: 120px;
+    height: 100px;
+    position: relative;
+    left: 94px;
+    top: 37px;
+}
+
 .depoyments__item--invisible {
     display: none;
 }
