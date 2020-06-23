@@ -1,0 +1,78 @@
+@media(max-width: 900px) {
+    html, body {
+        max-width: 375px;
+        height: auto;
+        max-height: 731px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 15px;
+    }
+
+    body {
+        flex-direction: column;
+        background-size: 300px;
+    }
+
+    .content {
+        width: 370px;
+        height: 630px;
+        flex-direction: column-reverse;
+        margin: 4em auto;
+    }
+
+    .depoyments {
+        left: unset
+    }
+
+    .depoyments__item {
+        width: 300px;
+        text-align: center;
+    }
+
+    .depoyments__item::before {
+        width: 60px;
+        height: 60px;
+        left: 0px;
+        top: 40px;
+        background-size: 60px;
+    }
+    
+    .depoyments__text {
+        font-size: 17px;
+    }
+
+    .depoyments_identification-group {
+        display: block;
+        margin-top: 20px;
+    }
+
+    .slider {
+        width: 250px;
+        margin-bottom: -30px;
+    }
+
+    .slider__bg {
+        width: 325px;
+        height: 325px;
+        bottom: 31px;
+        right: 40px;
+        background-size: 325px;
+    }
+
+    .slider__image {
+        width: 100%;
+    }
+
+    .slider__nav {
+        width: 90px;
+        height: 50px;
+        left: 85px;
+    }
+
+    .attribution {
+        position: relative;
+        bottom: 10px;
+    }
+    
+}
