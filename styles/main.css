@@ -129,10 +129,6 @@ body {
     cursor: pointer;
 }
 
-.slider__arrow--prev:hover {
-    border: 1px
-}
-
 .slider__arrow--prev::after {
     content: '';
     width: 100%;
