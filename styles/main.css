@@ -107,6 +107,7 @@ body {
 
 .slider__image {
     border-radius: 5px;
+    box-shadow: 0 2rem 3rem -3rem var(--dark-blue-color);
 }
 
 .slider__nav {
