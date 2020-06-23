@@ -126,6 +126,11 @@ body {
     display: block;
     width: 50%;
     height: 100%;
+    cursor: pointer;
+}
+
+.slider__arrow--prev:hover {
+    border: 1px
 }
 
 .slider__arrow--prev::after {
