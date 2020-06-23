@@ -23,6 +23,12 @@ html, body {
 body {
     background: url('../images/pattern-curve.svg') no-repeat;
     background-position-y: bottom;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
 }
 
 .content {
