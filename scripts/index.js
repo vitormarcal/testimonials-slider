@@ -1,9 +1,5 @@
 const depoymentsList = Array.from(document.querySelectorAll('.depoyments__item'));
-const sliderImage = document.querySelector('.slider__image');
-const images = [
-    '/images/image-tanya.jpg',
-    '/images/image-john.jpg'
-]
+const sliderImage = Array.from(document.querySelectorAll('.slider_item'));
 
 const findFeaturedIndex = () => depoymentsList.findIndex(e => e.classList.contains("depoyments__item--featured"));
 const findNext = (index) => index === depoymentsList.length - 1 ? 0 : index + 1
@@ -31,7 +27,8 @@ function next() {
 }
 
 function toggleDepyment(from, to) {
-    sliderImage.src = images[to];
+    sliderImage[to].classList.toggle('slider__item--invisible')
+    sliderImage[from].classList.toggle('slider__item--invisible');
     depoymentsList[from].classList.remove('depoyments__item--featured');
     depoymentsList[from].classList.add('depoyments__item--invisible');
     depoymentsList[to].classList.remove('depoyments__item--invisible');
