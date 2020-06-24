@@ -63,6 +63,13 @@ body {
     top: 40px;
 }
 
+.depoyments__item--fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
 .depoyments__item--invisible {
     display: none;
 }
@@ -115,6 +122,13 @@ body {
     list-style: none;
 }
 
+.slider_item--fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
 .slider__item--invisible {
     display: none;
 }
@@ -160,3 +174,14 @@ body {
     background: url('../images/icon-next.svg') no-repeat center;
     display: block;
 }
+
+/* Fading animation */
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
