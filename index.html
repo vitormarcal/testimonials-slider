@@ -20,7 +20,7 @@
 </head>
 <body>
 
-  <div class="content">
+  <main class="content">
 
         <ul class="depoyments">
           <li class="depoyments__item depoyments__item--featured depoyments__item--fade">
@@ -57,13 +57,17 @@
             </li>
           </ul>
           
-          <div class="slider__nav">
-              <span class="slider__arrow slider__arrow--prev" aria-label="Previous"></span>
-              <span class="slider__arrow slider__arrow--next" aria-label="Next"></span>
-          </div>
+          <nav class="slider__nav">
+              <button class="slider__arrow slider__arrow--prev">
+                <span class="screen-reader-only">Previous depoyment</span>
+              </button>
+              <button class="slider__arrow slider__arrow--next">
+                <span class="screen-reader-only">Next depoyment</span>
+              </button>
+          </nav>
         </div>
 
-  </div>
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 

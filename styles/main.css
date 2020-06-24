@@ -20,6 +20,16 @@ html, body {
     height: 100vh;
 }
 
+.screen-reader-only {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    clip: rect(1px,1px,1px,1px);
+    clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+    -webkit-clip-path: polygon(0px 0px, 0px 0px, 0px 0px);
+    overflow: hidden !important;
+}
+
 body {
     background: url('../images/pattern-curve.svg') no-repeat;
     background-position-y: bottom;
@@ -157,6 +167,13 @@ body {
     width: 50%;
     height: 100%;
     cursor: pointer;
+    background-color: white;
+    border-radius: 36px;
+    border-width: inherit;
+}
+
+.slider__arrow:active, .slider__arrow:focus {
+    outline: none;
 }
 
 .slider__arrow--prev::after {
