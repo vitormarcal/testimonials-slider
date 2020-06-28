@@ -1,10 +1,4 @@
 @media(max-width: 900px) {
-    html, body {
-        max-width: 375px;
-        height: auto;
-        max-height: 731px;
-    }
-
     h1, h2, h3, h4, h5, h6 {
         font-size: 15px;
     }
@@ -15,10 +9,7 @@
     }
 
     .content {
-        width: 370px;
-        height: 630px;
         flex-direction: column-reverse;
-        margin: 4em auto;
     }
 
     .depoyments {

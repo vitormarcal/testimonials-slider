@@ -43,13 +43,13 @@ body {
 
 .content {
     display: flex;
-    width: 90%;
-    max-width: 1440px;
+    width: 95%;
+    max-width: 1240px;
     height: 95%;
 
     align-items: center;
     justify-content: center;
-    margin: 0 10em;
+    margin: 0 auto;
 }
 
 .depoyments {
